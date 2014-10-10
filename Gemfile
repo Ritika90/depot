@@ -31,10 +31,10 @@ gem 'spring',        group: :development
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
+gem 'faker', '1.1.2'
 gem 'jquery-rails'
 gem 'pg'
-
+gem 'will_paginate' , '>= 3.0.pre'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
