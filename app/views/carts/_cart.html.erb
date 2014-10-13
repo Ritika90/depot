@@ -1,4 +1,4 @@
-<% unless cart.line_items.empty? %>
+
     <div class="cart-title" ><%= t('.title') %></div>
     <table>
       <%= render(:partial => cart , :collection => cart.line_items) %>
@@ -10,4 +10,3 @@
     <%= button_to t('.checkout') , new_order_url, :method=>:get %>
     <%= button_to t('.empty') , cart, :method => :delete,
                   :confirm => 'Are you sure?' %>
-<% end %>
